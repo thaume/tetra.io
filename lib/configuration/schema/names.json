@@ -1,0 +1,34 @@
+{
+  "_webroot_dir_name": {
+    "doc": "The name of the directory that acts as the webroot",
+    "default": "public"
+  },
+  "_scripts_dir_name": {
+    "doc": "The name of the directory that holds scripts",
+    "default": "scripts"
+  },
+  "_styles_dir_name": {
+    "doc": "The name of the directory that holds styles",
+    "default": "styles"
+  },
+  "_partials_dir_name": {
+    "doc": "The name of the directory that contains partials",
+    "default": "_partials"
+  },
+  "_helpers_dir_name": {
+    "doc": "The name of the directory that contains helpers",
+    "default": "_helpers"
+  },
+  "_translations_dir_name": {
+    "doc": "The name of the directory that contains localization JSON",
+    "default": "lang"
+  },
+  "_component_release_dir_name": {
+    "doc": "The name of the folder in which pre-compiled component resources can be found.",
+    "default": "release"
+  },
+  "_root_file_name": {
+    "doc": "The basename of files that are treated as the root files for localization and components",
+    "default": "main"
+  }
+}

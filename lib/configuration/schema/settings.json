@@ -1,0 +1,26 @@
+{
+  "forbidden_routes": {
+    "doc": "A list of routes that may not be created (either as an identical or partial match).",
+    "default": []
+  },
+  "files_glob": {
+    "doc": "A glob pattern to find all files in a directory and its subdirectory. By default we exclude files that start with an underscore",
+    "default": "**/!(~*)"
+  },
+  "component_partial_prefix": {
+    "doc": "The prefix used to namespace component partials",
+    "default": "comp"
+  },
+  "component_lang_namespace": {
+    "doc": "The top-level namespace in component localization JSON",
+    "default": "comp"
+  },
+  "template_ext": {
+    "doc": "The templating file extension",
+    "default": ".hbs"
+  },
+  "external_components": {
+    "doc": "Where external components are located, relative to project root",
+    "default": "bower_components"
+  }
+}

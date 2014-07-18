@@ -1,0 +1,64 @@
+{
+  "name": "tetra",
+  "version": "0.4.2",
+  "description": "A application launcher for Tetra.io/Locomotive projects",
+  "homepage": "https://github.com/viadeo/tetra.io",
+  "keywords": [
+    "node.js",
+    "express",
+    "connect",
+    "locomotive",
+    "mvc",
+    "web",
+    "tetra",
+    "viadeo"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/viadeo/tetra.io.git"
+  },
+  "author": {
+    "name": "viadeo",
+    "url": "http://www.viadeo.com/"
+  },
+  "bugs": {
+    "url": "http://github.com/viadeo/tetra.io/issues"
+  },
+  "main": "./lib",
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "async": "~0.2.9",
+    "glob": "~3.2.7",
+    "lodash": "~2.4.1",
+    "convict": "~0.4.1",
+    "locomotive": "0.4.0",
+    "bootable": "~0.2.2",
+    "bootable-environment": "~0.2.0",
+    "debug": "~0.7.4",
+    "rimraf": "~2.2.5",
+    "pkginfo": "~0.3.0",
+    "slash": "~0.1.1"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "grunt-contrib-jshint": "~0.8.0",
+    "grunt-mocha-test": "~0.8.1",
+    "grunt-mocha-cov": "~0.1.1",
+    "grunt-jsbeautifier": "~0.2.6",
+    "chai": "~1.8.1",
+    "mocha": "~1.16.2"
+  },
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "readme": "# tetra.io\n\n**tetra.io** (formerly **Viaduct** (formerly **limbo**)) is a webapp toolkit for full-stack JavaScript applications. If you are migrating from a\nprevious version, please consult [the changelog](/docs/CHANGELOG.md).\n\nFull documentation is in the [docs directory](/docs/), for the moment.\n\n## Prerequisites\n\nFirst make sure that you have correctly installed the __latest__ versions of the following libraries\n\n* **[Node.JS](http://www.nodejs.org)**\n* **[Npm](https://npmjs.org/)**\n* **[Git](https://help.github.com/articles/set-up-git)**\n* **[Yeoman](http://yeoman.io/gettingstarted.html)** (run the command `sudo npm install -g yo`)\n* **[Bower](http://bower.io)** (run the command `sudo npm install -g bower`)\n\nFinally, verify the following with respect to your **git** configuration:\n\n1. Make sure that git is configured for credential caching. [Consult this document if you have problems](https://confluence.atlassian.com/display/STASH/Permanently+authenticating+with+Git+repositories#PermanentlyauthenticatingwithGitrepositories-Usingcredentialcaching)\n2. Check that you are part of the viadeoteam group on github\n\n## Starting an application with __Tetra__ and __Yeoman__\n\n[Consult the generator-tetra project](https://github.com/viadeo/generator-tetra/)\n",
+  "readmeFilename": "README.md",
+  "_id": "tetra@0.4.2",
+  "dist": {
+    "shasum": "0612a80a527897083cb77f4a024f28abb3ebfc63"
+  },
+  "_resolved": "git+https://0b37ba877d1d69c250c8b303cef1e8188d59b08a:x-oauth-basic@github.com/thaume/tetra.io.git#48c8962d2bc51d0f64fda04fad18dc39d589264c",
+  "_from": "tetra@git+https://0b37ba877d1d69c250c8b303cef1e8188d59b08a:x-oauth-basic@github.com/thaume/tetra.io.git"
+}

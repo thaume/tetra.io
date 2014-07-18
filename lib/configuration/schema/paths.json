@@ -1,0 +1,26 @@
+{
+  "_controllers": {
+    "doc": "Where the locomotive controllers are stored, relative to project root",
+    "default": "app/controllers"
+  },
+  "_views": {
+    "doc": "Where the locomotive views are stored, relative to project root",
+    "default": "app/views"
+  },
+  "_translations": {
+    "doc": "Where application-level translations can be found, relative to project root",
+    "default": "app/lang"
+  },
+  "_assets": {
+    "doc": "Location of application assets, relative to project root",
+    "default": "app/assets"
+  },
+  "_components": {
+    "doc": "Where local components are located, relative to project root",
+    "default": "app/components"
+  },
+  "_staging": {
+    "doc": "The folder that the build can use to create temporary files, and where webroot is. Relative to project root.",
+    "default": "_staging"
+  }
+}
